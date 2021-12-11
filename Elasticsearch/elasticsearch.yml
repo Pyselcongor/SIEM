@@ -1,0 +1,29 @@
+cluster.name: elk-talcsi
+node.name: node-1
+node.roles: [ master, data_hot, data_content, ingest, ml, remote_cluster_client, transform ]
+
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+path.repo: /var/lib/elasticsearch/elk_repo
+
+transport.tcp.port: 9300
+network.host: 0.0.0.0
+http.port: 9200
+
+discovery.seed_hosts:
+        - 10.255.255.17
+        - 10.255.255.15
+
+cluster.initial_master_nodes: node-1
+
+xpack.security.enabled: true
+xpack.security.transport:
+        ssl.enabled: true
+        ssl.verification_mode: none
+        ssl.keystore.path: /opt/elasticsearch/config/certs/elastic-certificates.p12
+        ssl.truststore.path: /opt/elasticsearch/config/certs/elastic-certificates.p12
+xpack.security.http.ssl:
+        enabled: true
+        keystore.path: /opt/elasticsearch/config/certs/elastic-certificates.p12
+        truststore.path: /opt/elasticsearch/config/certs/elastic-certificates.p12
+
