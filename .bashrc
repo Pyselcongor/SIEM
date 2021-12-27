@@ -119,7 +119,3 @@ alias ssta="systemctl start"
 alias ssto="systemctl stop"
 alias systat="systemctl status"
 alias dockerbash="sudo docker exec -it talcsi /bin/bash"
-
-cd /docker/logstash/config/conf
-export LOGSTASH_KEYSTORE_PASS=7tmIIdljUXm0cn97iorv
-cd ~
