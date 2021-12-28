@@ -1,7 +1,7 @@
 copy /z /y "\\PRD-SRV-V-BCK\Logiciels\Talc SI\Site_Logiciels - Documents\SIEM\Sysmon-config.xml" "C:\windows\"
 sysmon -c c:\windows\Sysmon-config.xml
 
-sc query "Sysmon" | Find "RUNNING"
+sc query "Sysmon64" | Find "RUNNING"
 If "%ERRORLEVEL%" EQU "1" (
 goto startsysmon
 )
