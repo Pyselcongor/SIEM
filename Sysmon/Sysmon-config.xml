@@ -224,6 +224,12 @@
 			<!--SECTION: Google-->
 			<CommandLine condition="begin with">"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=</CommandLine> <!--Google:Chrome: massive command-line arguments-->
 			<CommandLine condition="begin with">"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=</CommandLine> <!--Google:Chrome: massive command-line arguments-->
+			<!--SECTION: Custom-->
+			<Image condition="contains">C:\Program Files (x86)\PRTG Network Monitor\Sensor System</Image> <!--| Talc SI: Trop bavard, event inutile -->
+			<Image condition="is">C:\ProgramData\Sophos\AutoUpdate\Cache\sophos_autoupdate1.dir\SophosUpdate.exe</Image> <!--| Talc SI: Trop bavard, event inutile -->
+			<Image condition="is">\\OPACWEC\Share\Sysmon64.exe</Image> <!--| Talc SI: Trop bavard, event inutil -->
+			<Image condition="is">C:\Program Files (x86)\HitmanPro.Alert\hmpalert.exe</Image> <!--| Talc SI: Trop bavard, event inutile -->
+			<Image condition="is">C:\Windows\Sysmon64.exe</Image> <!--| Talc SI: Application GPO, event inutile -->
 		</ProcessCreate>
 	</RuleGroup>
 	
