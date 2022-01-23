@@ -1,0 +1,10 @@
+Events Correlation
+
+Objects manipulation:
+	-	Object deleted 
+		To get which object from (Security - ID 4660) we must find [ObjectName] from (Security - ID 4656) generated before, based on the same [HandleID].
+	-	Note
+		Tested on Windows Server 2016, there is only (Security - ID 4656) which is generated, and the action is detailed within. Winlogbeat doesn't map this to a field, instead the field [winlog.event_data.AccessList] must contain the value "%%1537" which corresponds to "DELETE", Source: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5145
+
+
+

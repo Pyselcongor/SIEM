@@ -1,7 +1,7 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Monitoring" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1642944702352" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.621">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
+<node TEXT="Monitoring" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1642944702352" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.826">
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -137,7 +137,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -205,7 +204,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -276,7 +274,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -345,7 +342,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -414,7 +410,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -480,7 +475,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1576431907" CREATED="1642948881022" MODIFIED="1642948896701" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -542,7 +536,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1349100060" CREATED="1642948900816" MODIFIED="1642948916335"><richcontent TYPE="NODE">
 
@@ -559,7 +552,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1434614572" CREATED="1642949363950" MODIFIED="1642949376600"><richcontent TYPE="NODE">
 
@@ -576,7 +568,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -666,7 +657,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1644167062" CREATED="1642949036995" MODIFIED="1642949049390" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -757,7 +747,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1001262824" CREATED="1642949050943" MODIFIED="1642949086415" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -777,7 +766,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -896,7 +884,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_239505755" CREATED="1642947588567" MODIFIED="1642947887047" TEXT_SHORTENED="true" HGAP_QUANTITY="89 pt" VSHIFT_QUANTITY="-2.25 pt"><richcontent TYPE="NODE">
 
@@ -990,7 +977,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1737506337" CREATED="1642947652998" MODIFIED="1642947897651" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -1010,7 +996,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1052,7 +1037,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1169,7 +1153,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_459566246" CREATED="1642948246245" MODIFIED="1642948294109" TEXT_SHORTENED="true" HGAP_QUANTITY="43.25 pt" VSHIFT_QUANTITY="-1.5 pt"><richcontent TYPE="NODE">
 
@@ -1400,7 +1383,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1970711930" CREATED="1642948297504" MODIFIED="1642948334009" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -1420,7 +1402,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1464,7 +1445,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1100434255" CREATED="1642949709102" MODIFIED="1642949781216" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -1504,7 +1484,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1340902118" CREATED="1642949719896" MODIFIED="1642949779437" TEXT_SHORTENED="true"><richcontent TYPE="NODE">
 
@@ -1533,7 +1512,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1988596663" CREATED="1642949735850" MODIFIED="1642949772752"><richcontent TYPE="NODE">
 
@@ -1550,7 +1528,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1663,7 +1640,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1723,7 +1699,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1824,7 +1799,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
