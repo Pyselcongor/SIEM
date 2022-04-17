@@ -1,0 +1,24 @@
+cluster.name: elastic-stack
+node.name: es-01
+node.roles: [ master, data_hot, data_content, ingest, ml, remote_cluster_client, transform ]
+
+path.data: /usr/share/elasticsearch/data
+path.logs: /var/log/elasticsearch
+
+transport.port: 9300
+network.host: 0.0.0.0
+http.port: 9200
+
+cluster.initial_master_nodes: es-01
+
+xpack.security.enabled: true
+xpack.security.transport.ssl:
+       enabled: true
+       key: certs/es-01/es-01.key
+       certificate: certs/es-01/es-01.crt
+       certificate_authorities: certs/ca/ca.crt
+       verification_mode: certificate
+xpack.security.http.ssl:
+       enabled: true
+       key: certs/es-01/es-01.key
+       certificate: certs/es-01/es-01.crt

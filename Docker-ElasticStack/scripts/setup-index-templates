@@ -1,0 +1,47 @@
+#!/bin/bash
+
+ELASTIC_PASSWORD=ChangeMe$
+
+#echo Exporting filebeat index template.
+#filebeat export template > filebeat.template.json
+
+#echo Importing filebeat template.
+#curl -XPUT -H 'Content-Type: application/json' -k -u elastic:$ELASTIC_PASSWORD  https://localhost:9200/_template/filebeat -d@filebeat.template.json -u elastic
+
+printf "Setting component template no_replica.\n"
+curl -XPUT -H 'Content-Type: application/json' -k -u elastic:$ELASTIC_PASSWORD  https://localhost:9200/_component_template/no_replica -d'
+{
+	"template": {
+		"settings": {
+			"number_of_replicas": 0
+		}
+	}
+}
+'
+
+printf "\nSetting component template ilm_monthly_rollover_yearly_retention.\n"
+curl -XPUT -H 'Content-Type: application/json' -k -u elastic:$ELASTIC_PASSWORD  https://localhost:9200/_component_template/ilm_monthly_rollover_yearly_retention -d'
+{
+	"template": {
+  	"settings": {
+    	"lifecycle": {
+      	"name": "monthly_rollover_yearly_retention"
+    	}
+  	}
+	}
+}
+'
+
+printf "\nSetting component template ilm_trimonthly_rollover_yearly_retention.\n"
+curl -XPUT -H 'Content-Type: application/json' -k -u elastic:$ELASTIC_PASSWORD  https://localhost:9200/_component_template/ilm_trimonthly_rollover_yearly_retention -d'
+{
+	"template": {
+  	"settings": {
+    	"lifecycle": {
+      	"name": "trimonthly_rollover_yearly_retention"
+    	}
+  	}
+	}
+}
+'
+printf "\n"
