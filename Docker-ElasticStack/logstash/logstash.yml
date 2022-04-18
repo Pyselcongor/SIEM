@@ -1,0 +1,6 @@
+path.data: /usr/share/logstash/data
+pipeline.unsafe_shutdown: true
+config.reload.automatic: true
+config.reload.interval: 30s
+path.logs: /usr/share/log/logstash/logs
+
