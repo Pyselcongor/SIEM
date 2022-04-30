@@ -112,10 +112,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-lo="logstash"
-el="elasticsearch"
-ki="kibana"
+lo="elastic-stack_logstash_1"
+el="elastic-stack_es-01_1"
+ki="elastic-stack_kibana_1"
 alias ssta="systemctl start"
 alias ssto="systemctl stop"
 alias systat="systemctl status"
-alias dockerbash="sudo docker exec -it talcsi /bin/bash"
+alias dps="docker ps"
+alias dcl="docker logs"
+alias dcd="docker-compose down"
+alias dcu="docker-compose up -d"
