@@ -65,7 +65,7 @@ echo \
 "\n"\
 "transport.port: 9300\n"\
 "network.host: 0.0.0.0\n"\
-"http.port: $ELASTICSEARCH_PORT\n"\
+"http.port: $ES_PORT\n"\
 "\n"\
 "cluster.initial_master_nodes: es-01\n"\
 "\n"\
@@ -88,8 +88,8 @@ echo \
 "monitoring.kibana.collection.enabled: false\n"\
 "server.host: 0.0.0.0\n"\
 "elasticsearch.hosts: ["https://$ELASTICSEARCH_HOSTNAME:9200"]\n"\
-"elasticsearch.username: "kibana_system\n"\
-"elasticsearch.password: "$KIBANA_PASSWORD\n"\
+"elasticsearch.username: "kibana_system"\n"\
+"elasticsearch.password: "$KIBANA_PASSWORD"\n"\
 "\n"\
 "elasticsearch.ssl.certificateAuthorities: [ "config/certs/ca/ca.crt" ]\n"\
 "elasticsearch.ssl.verificationMode: "none"\n"\
@@ -99,7 +99,7 @@ echo \
 "server.ssl.key: config/certs/kibana/kibana.key\n"\
 "server.ssl.certificateAuthorities: config/certs/ca/ca.crt \n"\
 "\n"\
-"server.publicBaseUrl: "https://$KIBANA_HOSTNAME:5601\n"\
+"server.publicBaseUrl: "https://$KIBANA_HOSTNAME:5601"\n"\
 "\n"\
 "xpack.encryptedSavedObjects.encryptionKey: "uLzNx5Ypbr7inCHRoxQ9sddqkoregqs321!\n"\
 > $KIBANA_ROOT/kibana.yml
