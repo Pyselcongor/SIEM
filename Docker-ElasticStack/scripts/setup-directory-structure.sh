@@ -101,7 +101,7 @@ echo \
 "\n"\
 "server.publicBaseUrl: "https://$KIBANA_HOSTNAME:5601"\n"\
 "\n"\
-"xpack.encryptedSavedObjects.encryptionKey: "uLzNx5Ypbr7inCHRoxQ9sddqkoregqs321!\n"\
+"xpack.encryptedSavedObjects.encryptionKey: "uLzNx5Ypbr7inCHRoxQ9sddqkoregqs321!"\n"\
 > $KIBANA_ROOT/kibana.yml
 
 #logstash.yml
