@@ -120,6 +120,17 @@ services:
       - ${KIBANA_PORT}:5601
     mem_limit: ${MEM_LIMIT}
 
+  elastalert:
+    depends_on:
+      es-01:
+        condition: service_healthy
+    image: jertel/elastalert2:${ELASTALERT_VERSION}
+    volumes:
+      - ./elastalert/elastalert.yaml:/opt/elastalert/config.yaml
+      - ./elastalert/rules/:/opt/elastalert/rules
+      - ./elastalert/smtp-config.yaml:/opt/elastalert/smtp-config.yaml
+    mem_limit: 500m
+
 volumes:
   certs:
     driver: local
